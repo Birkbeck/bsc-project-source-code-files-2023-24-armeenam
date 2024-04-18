@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+
+    <head>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    
+    <head>
+        <meta charset = "UTF-8">
+        <title> OncoDetect </title>
+    </head>
+    <body> 
+        <h1> OncoDetect</h1>
+        <h2> Upload your image below for classification</h2>
+        <form action = "/predict" method = "post" enctype = "multipart/form-data">
+            <input type = "file" name = "file" id = "file" reqiured>
+            <input type = "submit" value = "Upload and Classify" id = "submit">
+        </form>
+    </body>
+
+</html>
